@@ -4,16 +4,9 @@
     </head>
 
     <body class="rainbow-background">
-        <script>
-            navigator.mediaDevices.getUserMedia({
-                audio: true,
-            }).then((stream) => {
-                const audio = new Audio("../rat/Rat music.mp3");
-                audio.play();
-            })
-        </script>
+
         
-        <audio autoplay>
+        <audio autoplay controls>
             <source src="../rat/Rat music.mp3" type="audio/mp3">
         </audio>
 

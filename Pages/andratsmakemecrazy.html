@@ -2,21 +2,10 @@
     <head>
         <link rel="stylesheet" href="../css/style.css">
     </head>
-
     <body class="rainbow-background">
-        <script>
-            navigator.mediaDevices.getUserMedia({
-                audio: true,
-            }).then((stream) => {
-                const audio = new Audio("../rat/Rat music.mp3");
-                audio.play();
-            })
-        </script>
-        
-        <audio autoplay>
+        <audio autoplay controls>
             <source src="../rat/Rat music.mp3" type="audio/mp3">
         </audio>
-
     <h1>Crazy?</h1>
     <a href="./iwascrazyonce.html">
     <button>I was crazy once</button>

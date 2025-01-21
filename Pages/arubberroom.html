@@ -4,19 +4,10 @@
     </head>
 
     <body class="rainbow-background">
-        <script>
-            navigator.mediaDevices.getUserMedia({
-                audio: true,
-            }).then((stream) => {
-                const audio = new Audio("../rat/Rat music.mp3");
-                audio.play();
-            })
-        </script>
-
-        <audio autoplay>
+        <audio autoplay controls>
             <source src="../rat/Rat music.mp3" type="audio/mp3">
         </audio>
-        
+
         <h1>A rubber room with rats</h1>
         <a href="./andratsmakemecrazy.html">
         <button>And rats make me crazy</button>
