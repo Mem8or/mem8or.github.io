@@ -1,0 +1,13 @@
+.rainbow-background {
+    animation: rainbow-background .01s linear infinite;
+}
+
+@keyframes rainbow-background {
+    0% { background-color: #ff0000; }
+    16.7% { background-color: #ff9900; }
+    33.3% { background-color: #ffff00; }
+    50% { background-color: #00ff00; }
+    66.7% { background-color: #0000ff; }
+    83.3% { background-color: #4b0082; }
+    100% { background-color: #ff0000; }
+}
