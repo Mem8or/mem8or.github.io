@@ -1,5 +1,5 @@
 .rainbow-background {
-    animation: rainbow-background .01s linear infinite;
+    animation: rainbow-background .5s linear infinite;
 }
 
 @keyframes rainbow-background {
